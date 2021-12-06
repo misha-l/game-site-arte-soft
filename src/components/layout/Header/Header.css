@@ -1,0 +1,166 @@
+/* Header
+-----------------------------------------------------------------------------*/
+
+.header {
+    min-height: 694px;
+    position: relative;
+}
+
+.content {
+    position: relative;
+    z-index: 10;
+}
+
+.menu li a:before {
+    content: "";
+    position: absolute;
+    height: 23px;
+    width: 4px;
+    left: 0px;
+    top: 22px;
+}
+
+.menu li:first-child a:before {
+    display: none;
+}
+
+
+/*
+.menu li: a {
+    margin: 0px;
+    8px;
+}*/
+
+.menu li {
+    margin: 0px 8px;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px 26px;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+}
+
+.menu a:after {
+    content: "";
+    transition: 0.3s;
+    height: 0px;
+    width: 0px;
+}
+
+.menu a:hover {
+    color: #ffaf43;
+}
+
+.menu a:hover:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    background: #ffaf43;
+}
+
+.menu .active a {
+    color: #ffaf43;
+}
+
+.menu .active a:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    background: #ffaf43;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    transition: 0.3s;
+    z-index: 2;
+    margin-left: 270px;
+    top: 380px;
+}
+
+.logo:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.topPanel__buttons a {
+    margin-left: 18px;
+}
+
+.buttons-small {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    margin-top: 25px;
+}
+
+.button-small {
+    height: 50px;
+    color: #ffaf43;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 20px 8px rgba(0, 0, 0, 0.35);
+}
+
+.buttons-small a:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+button,
+.button {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: url('./images/bg-button-1.jpg') center bottom no-repeat;
+    color: #ffaf43;
+    position: relative;
+    padding: 19px 32px;
+    width: 140px;
+    height: 50px;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 0px 10px 20px 8px rgba(0, 0, 0, 0.35);
+}
+
+button:hover,
+.button:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+    color: #fff;
+}
+
+.buttonDark {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: url('./images/bg-button-sign.png') center bottom no-repeat;
+    color: #ffaf43;
+    position: relative;
+    padding: 19px 32px;
+    width: 140px;
+    height: 50px;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0px 8px 10px -3px rgba(0, 0, 0, 0.3);
+}
+
+.buttonDark:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+    color: #fff;
+}

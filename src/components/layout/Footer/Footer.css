@@ -1,0 +1,129 @@
+/*footer*/
+
+.footer {
+  padding-bottom: 80px;
+}
+
+
+/*To top*/
+
+.toTop-fon {
+  display: flex;
+  justify-content: center;
+  height: 42px;
+  background: url('./images/fon-totop.png') center no-repeat;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.toTop {
+  background: url('./images/fon-circle.png') no-repeat;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  display: flex;
+}
+
+.toTop:hover {
+  -webkit-filter: brightness(140%);
+  filter: brightness(140%);
+}
+
+
+/* to top end*/
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.footer-block-t {
+  padding-top: 33px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.f-menu li {
+  display: inline-block;
+  margin: 15px 23px;
+}
+
+.f-menu li a {
+  text-transform: uppercase;
+  color: #9b6926;
+  font-size: 14px;
+}
+
+.f-menu li a:hover {
+  color: #e39f45;
+  font-weight: bold;
+}
+
+.f-menu li a:active {
+  color: #e39f45;
+  font-weight: bold;
+}
+
+.footer-end {
+  margin-top: 51px;
+}
+
+.footer-block-coperite {
+  float: left;
+  color: #c67c54;
+  padding-top: 70px;
+}
+
+.footer-block-coperite a {
+  color: #ffa328;
+}
+
+.footer-block-coperite a:hover {
+  text-decoration: underline;
+}
+
+.footer-block-r {
+  float: right;
+}
+
+.soc-block {
+  margin-bottom: 45px;
+}
+
+.soc-block a {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 8px;
+  margin-left: 20px;
+  background-color: #27130c;
+  border: 1px solid #c66047;
+  height: 33px;
+  width: 33px;
+  box-shadow: inset 0px 0px 7px 0px rgba(183, 55, 77, 0.9);
+}
+
+.soc-block a:hover {
+  box-shadow: inset 0px 0px 15px 0px rgba(183, 55, 77, 0.9);
+  filter: drop-shadow(0px 0px 6px rgba(220, 84, 107, 0.75));
+  border: 1px solid #c66047;
+}
+
+.footer-logo {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.footer-logo:hover {
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
+.templstock:hover {
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
+
+/*end footer*/

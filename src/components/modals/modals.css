@@ -1,0 +1,81 @@
+/*modal windovs*/
+
+.logo-re {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.modal_div {
+  width: 599px;
+  min-height: 510px;
+  background: url(../images/modal-top-bg.jpg) center top no-repeat, url(../images/modal-bottom-bg.jpg) center bottom no-repeat;
+  position: fixed;
+  background-color: #221918;
+  top: 45%;
+  left: 50%;
+  margin-top: -90px;
+  margin-left: -328px;
+  display: none;
+  opacity: 0;
+  z-index: 199;
+  padding: 50px 0px;
+}
+
+.modal_div .modal_close {
+  width: 36px;
+  height: 36px;
+  background: url(../images/close-icon.png) no-repeat;
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  cursor: pointer;
+  display: block;
+}
+
+.modal_close:hover {
+  -webkit-filter: brightness(140%);
+  filter: brightness(140%);
+}
+
+#overlay {
+  z-index: 190;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.modal-content {
+  padding: 0px 40px;
+  text-align: center;
+  color: #e7c195;
+}
+
+.modal-content h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.modal-content h2 span {
+  position: relative;
+  text-transform: uppercase;
+  color: #ffaf43;
+}
+
+.modal-content form p {
+  margin-bottom: 20px;
+}
+
+.formButton {
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+/*end modal  windows*/

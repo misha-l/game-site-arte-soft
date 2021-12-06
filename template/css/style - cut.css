@@ -1,0 +1,50 @@
+
+
+/* footer was here - cut */
+
+
+/* smog and sparks were here */
+
+
+
+
+
+/*download*/
+
+.downloadBlock {
+    text-align: center;
+    padding: 35px;
+    margin: 0px 35px;
+}
+
+.downloadBlock p {
+    margin-bottom: 30px;
+}
+
+.download-block-1 {
+    margin-bottom: 40px;
+}
+
+.download-block-1:last-child {
+    margin-bottom: 0px;
+}
+
+.client-text {
+    margin-right: 50px;
+    width: 255px;
+    height: 90px;
+    color: #f7ddbf;
+    flex-wrap: wrap;
+    align-content: center;
+    background: #2e2524;
+}
+
+.client-text span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 9px;
+}
+
+
+/*end download*/

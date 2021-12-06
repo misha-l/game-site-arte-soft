@@ -1,0 +1,83 @@
+/*widget Discussions*/
+
+.admin-icon {
+  float: left;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-size: 45px;
+  box-shadow: 0em 8px 15px rgba(0, 0, 0, 0.3);
+  margin-right: 26px;
+}
+
+.discussions-content-top {}
+
+.discussions-icon {
+  float: left;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-size: 45px;
+  box-shadow: 0em 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.discussions-message {
+  float: right;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #563d2e;
+  color: #ffaf43;
+  font-size: 12px;
+  box-shadow: 0em 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.discussions-text {
+  padding-left: 16px;
+  font-size: 14px;
+}
+
+.discussions-text-bt {
+  padding-left: 16px;
+  font-size: 15px;
+  color: #8d7962;
+}
+
+.discussions-content-block:hover .discussions-text-bt {
+  color: #8b6757;
+}
+
+.discussions-text-bt a {
+  color: #fccca0;
+}
+
+.discussions-content-block {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  transition: 0.4s;
+}
+
+.discussions-content-block:hover {
+  background-color: #342b29;
+  box-shadow: 0px 8px 10px -3px rgba(0, 0, 0, 0.45);
+  transition: 0.4s;
+  margin: 0px -40px 0px -40px;
+  padding: 10px 26px 10px 26px;
+  cursor: pointer;
+}
+
+.discussions-content-block:hover .discussions-text {
+  color: #ffaf43;
+}
+
+.discussions-content-block:hover .discussions-text-bt a {
+  text-decoration: none;
+  color: #ffaf43;
+}
+
+
+/*widget Discussions end*/

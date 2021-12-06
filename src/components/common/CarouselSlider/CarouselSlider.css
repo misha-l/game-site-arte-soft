@@ -1,0 +1,215 @@
+/*   slider  */
+
+.swiper-container {
+  width: 599px;
+  float: left;
+}
+
+.swiper-slider {
+  width: 100%;
+  height: 370px;
+}
+
+.swiper-slider .swiper-slide {
+  width: 599px;
+}
+
+.swiper-slider .swiper-slide {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.swiper-slider .swiper-slide h2 {
+  color: #fff;
+  font-size: 24px;
+  background: rgba(44, 28, 19, 0.55);
+  margin-bottom: 0px;
+  font-weight: normal;
+  padding: 26px 0px 26px 50px;
+}
+
+.swiper-slider .swiper-slide .slider-info {
+  position: absolute;
+  bottom: 60px;
+  height: 90px;
+  padding: 0px 60px;
+  padding-bottom: 20px;
+  width: 599px;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: linear-gradient(to top, rgba(36, 32, 27, 0.8) 0%, rgba(0, 0, 0, 0));
+}
+
+.swiper-slider .swiper-slide .slider-info p {
+  color: #fff;
+  font-size: 14px;
+  width: 290px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.swiper-slider .swiper-pagination {
+  height: 60px;
+  line-height: 60px;
+  bottom: 0 !important;
+  background: rgba(32, 24, 23, 0.9);
+  border-top: 1px solid #3f2f21;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.swiper-slider .swiper-pagination .swiper-pagination-bullet {
+  border-radius: 0px;
+  background: #908783;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin-right: 15px !important;
+}
+
+.swiper-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background: #ffd481;
+}
+
+.swiper-slider .slider-button {
+  width: 55px;
+  height: 55px;
+}
+
+.swiper-slider .swiper-button-next {
+  background: url('./images/arrow-right-1.jpg') center no-repeat;
+  right: 0;
+}
+
+.swiper-slider .swiper-button-prev {
+  background: url('./images/arrow-left-1.jpg') center no-repeat;
+  left: 0;
+}
+
+.swiper-slider .swiper-button-prev:hover {
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
+.swiper-slider .swiper-button-next:hover {
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
+.swiper-slider .swiper-button-disabled {
+  opacity: 0.7;
+}
+
+
+/*   end slider*/
+
+/* temp css before migrate jquery to react*/
+
+.swiper-container {
+  
+}
+
+.swiper-container {
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform,-webkit-transform;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+}
+
+.swiper-slider .swiper-pagination {
+  height: 60px;
+  line-height: 60px;
+  bottom: 0 !important;
+  background: rgba(32, 24, 23, 0.9);
+  border-top: 1px solid #3f2f21;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  -webkit-transition: .3s opacity;
+  -o-transition: .3s opacity;
+  transition: .3s opacity;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  z-index: 10;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #313b4c;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #bfdaea;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin-right: 5px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin-right: 15px !important;
+}
+
+.swiper-slider .swiper-pagination .swiper-pagination-bullet {
+  border-radius: 0px;
+  background: #908783;
+}
+
+.swiper-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background: #ffd481;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  height: 44px;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+}

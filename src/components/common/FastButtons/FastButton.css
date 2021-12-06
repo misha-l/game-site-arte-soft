@@ -1,0 +1,155 @@
+.fast-button {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.download-block {
+  display: flex;
+  height: 125px;
+  width: 33%;
+  background-image: url('./images/download-button.jpg');
+  background-repeat: no-repeat;
+}
+
+.download-block a {
+  font-size: 30px;
+  color: #ffaf43;
+  padding-left: 172px;
+  padding-top: 40px;
+  text-align: left;
+  text-shadow: #000 0px 1px;
+  font-weight: 600;
+}
+
+.download-block span {
+  font-weight: bold;
+  font-style: italic;
+  background: linear-gradient(#ffaf43, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+
+.download-block p {
+  font-size: 14px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.download-block:hover {
+  -webkit-filter: brightness(110%);
+  filter: brightness(110%);
+}
+
+
+/* servers
+-----------------------------------------------------------------------------*/
+
+.status-block {
+  background-image: url('./images/status-bg.jpg');
+  background-repeat: no-repeat;
+  height: 125px;
+  width: 33%;
+  margin-left: 3px;
+}
+
+.server {
+  padding: 35px 30px 0px 157px;
+  height: 125px;
+  font-size: 12px;
+  background-image: url('./images/img-server-top.png');
+  background-repeat: no-repeat;
+  font-size: 14px;
+}
+
+.server .server-name {
+  color: #fff;
+}
+
+.server .status-online {
+  color: #ccfa6a;
+  float: right;
+}
+
+.server-bottom {
+  padding: 35px 30px 0px 157px;
+  height: 125px;
+  font-size: 12px;
+  background-image: url('./images/img-server-bottom.png');
+  background-repeat: no-repeat;
+}
+
+.server-bottom .server-name {
+  color: #fff;
+}
+
+.server-bottom .status-offline {
+  color: #f74133;
+  float: right;
+}
+
+.progress-bar {
+  height: 16px;
+  margin: 9px 0px 6px 0px;
+  position: relative;
+  padding-top: 1px;
+}
+
+.progress-bar:after {
+  content: "";
+  position: absolute;
+  background-color: #1a100a;
+  width: 100%;
+  height: 4px;
+  top: 7px;
+  left: 0px;
+}
+
+.progress-bar span {
+  height: 17px;
+  background-image: url('./images/line-server.png');
+  background-repeat: repeat-x;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.progress-bar-off {
+  height: 16px;
+  margin: 9px 0px 6px 0px;
+  position: relative;
+  padding-top: 1px;
+}
+
+.progress-bar-off:after {
+  content: "";
+  position: absolute;
+  background-color: #1a100a;
+  width: 100%;
+  height: 4px;
+  top: 7px;
+  left: 0px;
+}
+
+.progress-bar-off span {
+  height: 17px;
+  background-image: url('./images/line-server-off.png');
+  background-repeat: repeat-x;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.desc {
+  color: #8d7962;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.desc:hover {
+  text-decoration: none;
+}
+
+
+/* servers end
+-----------------------------------------------------------------------------*/

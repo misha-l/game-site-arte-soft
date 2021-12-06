@@ -1,0 +1,43 @@
+// media devices
+@mixin respond($breakpoint) {
+    @if $breakpoint==lower400 {
+        @media (max-width: 420px) {
+            @content;
+        }
+    }
+    @if $breakpoint==lower450 {
+        @media (max-width: 450px) {
+            @content;
+        }
+    }
+    @if $breakpoint==lower600 {
+        @media (max-width: 600px) {
+            @content;
+        }
+    }
+    @if $breakpoint==lower768 {
+        @media (max-width: 768px) {
+            @content;
+        }
+    }
+    @if $breakpoint==lower900 {
+        @media (max-width: 900px) {
+            @content;
+        }
+    }
+    @if $breakpoint==lower991 {
+        @media (max-width: 991px) {
+            @content;
+        }
+    }
+    @if $breakpoint==lower1200 {
+        @media (max-width: 1200px) {
+            @content;
+        }
+    }
+    @if $breakpoint==more1800 {
+        @media (min-width: 1800px) {
+            @content;
+        }
+    }
+}

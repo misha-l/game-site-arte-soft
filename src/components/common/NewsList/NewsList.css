@@ -1,0 +1,105 @@
+/*Last news*/
+
+.news-top {
+  float: right;
+  height: 370px;
+  width: 599px;
+  margin-left: 2px;
+  background: url('./images/fon-news.jpg') no-repeat;
+}
+
+.news-top-title {
+  position: relative;
+  display: flex;
+}
+
+.news-top-title span {
+  display: block;
+  color: #ffaf43;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 40px 40px 20px 40px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.tab-block.active {
+  display: block;
+  animation: tab 0.6s linear;
+}
+
+.tab-more {
+  position: absolute;
+  right: 0;
+  color: #ffaf43;
+  background: #140e0d;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin-top: -9px;
+  line-height: 20px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+.bright:hover {
+  filter: brightness(120%);
+  background: #322725;
+}
+
+.news-top-text {
+  padding: 0px 40px 40px 40px;
+}
+
+span.news-1 {
+  color: #8d7962;
+}
+
+.news:hover {
+  height: 42px;
+  padding-top: 13px;
+  background-color: #342b29;
+  border-bottom: 1px solid #5c432b;
+  padding-left: 33px;
+  padding-right: 47px;
+  transition: 0.3s;
+  box-shadow: 0px 8px 10px -3px rgba(0, 0, 0, 0.45);
+}
+
+.news:hover .news-1 {
+  color: #e7c195;
+}
+
+.news:hover .date {
+  color: #e7c195;
+}
+
+.news:hover a {
+  color: #ffaf43;
+}
+
+.date {
+  color: #8d7962;
+}
+
+.news {
+  height: 42px;
+  margin: 0px -40px 0px -40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 13px;
+}
+
+.news a {
+  width: 400px;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #f7ddbf;
+}
+
+/*END Last news*/

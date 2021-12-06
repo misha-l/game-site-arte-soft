@@ -1,0 +1,55 @@
+/*page-content*/
+
+.page-content {
+  padding: 40px 65px 40px 60px;
+  background: url('./images/fon-page-top.jpg') center top no-repeat, url('./images/fon-page-bottom.jpg') center bottom no-repeat;
+  background-color: #211715;
+}
+
+.page-top {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffaf43;
+  text-align: center;
+  font-weight: bold;
+}
+
+.page-title {
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+.page-title-time {
+  color: #8d7962;
+}
+
+.page-title-news {
+  color: #ffaf43;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.page-text {
+  line-height: 20px;
+}
+
+.page-text a {
+  color: #ffaf43;
+  text-decoration: underline;
+}
+
+.page-text a:hover {
+  text-decoration: none;
+  color: #8d7962;
+}
+
+.page-text-img {
+  float: left;
+  height: 286px;
+  width: 476px;
+  margin-right: 35px;
+  margin-bottom: 15px;
+}
+
+
+/*end page-content*/
